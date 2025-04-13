@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    margin: 2em;
+    color: #3d3d3d;
+}
+#myimage {
+    display: none;
+}
+
+p {
+    margin:2px;
+}
+
+textarea {
+    font-size:0.7em;
+}
+
+section {
+    margin: 1em 0;
+}
+
+video {
+    display: block;
+    transform: rotateY(180deg);
+}
+
+.videoView {
+    position: relative;
+    width: 48vw;
+}
+
+#output_canvas {
+    z-index: 1;
+    position: absolute;
+    pointer-events: none;
+    transform: rotateY(180deg);
+}

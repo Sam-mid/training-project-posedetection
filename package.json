@@ -1,0 +1,13 @@
+{
+  "name": "training-project---nn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "knear.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.22.0"
+  }
+}
